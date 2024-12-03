@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MalikAPI</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="section1">
+        <h2 class="section1-heading">
+          Check my new project 💧 MistCSS write React components with 50% less
+          code
+        </h2>
+      </div>
+      <div class="section2">
+        <h2>MalikAPI</h2>
+        <span>Guide</span>
+      </div>
+      <div class="section3">
+        <h1>{Malik} API</h1>
+        <p>Free fake and reliable API for testing and prototyping.</p>
+        <p>
+          Powered by
+          <a href="https://github.com/umermalik053/Backend-Server-Resful-Api"
+           target="_blank" >Malik Server</a
+          >
+        </p>
+        <span>Serving ~3 billion requests each month.</span>
+      </div>
+      <div class="section4">
+        <h2>Sponsors</h2>
+        <p>
+          MalikAPI <a href="https://github.com/umermalik053" target="_blank">Sponsors</a> on
+          GitHub, check them out 💖
+        </p>
+        <img width="400px" src="./mockend.svg" alt="" />
+        <img
+          width="400px"
+          src="./338735487-928b7526-0fdf-46ae-80d9-27fa0ef5f430.png"
+          alt=""
+        />
+      </div>
+      <div class="section5">
+        <h2>Try it</h2>
+        <p>Run this code here, in a console or from any site:</p>
+        <pre class="input-code">
+fetch('https://backend-server-resful-api.vercel.app')
+        .then(response => response.json()) 
+        .then(json => console.log(json))
+        </pre>
+        <button class="runScript" onclick="runScript()">Run Script</button>
+        <pre class="output-code">
+{
+ "userId": 1,
+ "id": 1,
+ "title": "delectus aut autem",
+ "completed": false
+}
+        </pre>
+        <p class="last-p">
+          Congrats! You've made your first call to MalikAPI. 😃 🎉
+        </p>
+        <h2 class="h2-section5">When to use</h2>
+        <p class="para-section5">
+          MalikAPI is a free online REST API that you can use <span class="bold-text"> whenever
+          you need some fake data.    </span> It can be in a README on GitHub, for a demo
+          on CodeSandbox, in code examples on Stack Overflow, ...or simply to
+          test things locally.
+        </p>
+      </div>
+      <div class="section6">
+        <h2>Resources</h2>
+        <p>JSONPlaceholder comes with a set of 6 common resources:</p>
+        <div class=" section6-child">
+           <ul class="first-child">
+            <li><a href="https://backend-server-resful-api.vercel.app/posts" target="_blank">/posts</a></li>
+            <li><a href="https://backend-server-resful-api.vercel.app/comments" target="_blank">/comments</a></li>
+            <li><a href="https://backend-server-resful-api.vercel.app/albums" target="_blank">/albums</a></li>
+            <li><a href="https://backend-server-resful-api.vercel.app/photos" target="_blank">/photos</a></li>
+            <li><a href="https://backend-server-resful-api.vercel.app/todos" target="_blank">/todos</a></li>
+            <li><a href="https://backend-server-resful-api.vercel.app/users" target="_blank">/users</a></li>
+            
+           </ul>
+           <ul class="second-child">
+              <li>100 posts</li>
+              <li>500 comments</li>
+              <li>100 albums</li>
+              <li>5000 photos</li>
+              <li>200 todos</li>
+              <li>10 users</li>
+           </ul>
+        </div>
+        <p class="para-note-section6"> <b>Note:</b> resources have relations. For example: posts have many comments, albums have many photos, ... see guide for the full list.</p>
+      </div>
+      <div class="section7">
+        <h2>Use your own data</h2>
+        <p>With our sponsor <a href="https://github.com/umermalik053" target="_blank">MalikApi</a> and a simple GitHub repo, you can have your own fake online REST server in seconds.</p>
+        <a class="sponsor-last-section7" href="https://github.com/umermalik053" target="_blank"><b>You can sponsor this project (and others) on GitHub</b></a>
+        <pre>Coded and maintained with ❤️ by MalikAPI © 2024</pre>
+      </div>
+    </div>
+
+    <script>
+      function runScript() {
+        const output = document.querySelector(".output-code");
+        output.style.display = "block";
+      }
+    </script>
+  </body>
+</html>
